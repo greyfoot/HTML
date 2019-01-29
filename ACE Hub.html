@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ACE Hub</title>
+</head>
+<body>
+
+	<h1>Update center</h1>
+	<form>
+		<div>
+		
+			<div>
+			<label for="INC">Incident Number</label>
+			<input type="text" name="INC" id="INC" placeholder="Incident Number" size="10" required>
+			</div>
+
+			<div>
+				<label for="ACE">ACE</label>
+				<input name="Category" id="ACE" value="ACE" type="radio" name="ACE">
+				<label for="ACE-Pro">ACE-Pro</label>
+				<input name="Category" id="ACE-Pro" value="ACE-Pro" type="radio" name="ACE-Pro">
+				<label for="Alogent">Alogent</label>
+				<input name="Category" id="Alogent" value="Alogent" type="radio" name="Alogent">
+				<label for="Other">Alogent</label>
+				<input name="Category" id="Other" value="Other" type="radio" name="Alogent">
+			</div>
+
+			<div>
+				<select name="Type">
+					<option>Select issue type</option>
+					<option value="1">Type 1</option>
+					<option value="2">Type 2</option>
+					<option value="3">Type 3</option>
+				</select>				
+			</div>
+			<div>
+				<label for="description">Latest Update:</label>
+				<br>
+				<textarea id="description" name="description" rows="5" columns="5" placeholder="description/Update"></textarea>
+			</div>
+			
+
+
+		</div>
+
+	</form>
+	
+
+</body>
+</html>
